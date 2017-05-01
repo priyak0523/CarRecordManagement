@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfCar xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/MobileServerMvcDeploy.Models">
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">12033</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Ford</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Focus</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">3 gophers on a treadmill</engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">green</color>
+  </Car>
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">85000</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Chevy</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">mailbu</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">6 cylinder</engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Maroon</color>
+  </Car>
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">612033</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Ford</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">F150</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">6 cylinder</engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Green</color>
+  </Car>
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">89500</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Pontiac</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">G6</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">2 cylinder</engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Blue</color>
+  </Car>
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">17200</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Pontiac</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">G8</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">3 cylinder</engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Silver</color>
+  </Car>
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">308</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Toyota</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Forerunner</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">6 cylinders</engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Grey</color>
+  </Car>
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">65328</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Volvo</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">wagon</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">
+      8 cyclinders while not in test mode otherwise 2 bicycle pedals
+    </engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Red</color>
+  </Car>
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">50</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">IKea</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Ronde</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">3 self propelled coasters</engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">wood panelling</color>
+  </Car>
+  <Car>
+    <mileage xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:long">17200</mileage>
+    <name xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Pontiac</name>
+    <model xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">Grand Am</model>
+    <engine xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">8 cylinder</engine>
+    <color xmlns:d3p1="http://www.w3.org/2001/XMLSchema" xmlns="" i:type="d3p1:string">rusty</color>
+  </Car>
+</ArrayOfCar>

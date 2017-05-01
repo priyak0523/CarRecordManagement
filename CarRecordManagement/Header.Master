@@ -1,0 +1,77 @@
+﻿<!-- 
+    Programmer  : KalaiPriya
+    Date        : 03/03/2017
+    Description : This page is the master page which holds menu bar navigation
+    -->
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header.master.cs" Inherits="sunovaSortingFiltering.Header" %>
+
+<!-- Inform the Browser which version of HTML we are using-->
+<!DOCTYPE html>
+<html>
+<head runat="server">
+
+    <!--Style Sheet Loading-->
+    <!-- It holds bootstrap and Datatable Css-->
+    <link rel="stylesheet" type="text/css" href="/Assets/Css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/Css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Assets/Css/Custom.css" />
+
+    <!--End of Style Sheet Loading -->
+
+    <!-- Javascript Loading-->
+    <!-- It holds bootstrap and Datatable Javascript-->
+    <script type="text/javascript" src="/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery-1.12.4.js"></script>
+    <!--End of Javascript Loading-->
+
+   
+
+    <asp:ContentPlaceHolder ID="MasterPagePlaceHolderHead" runat="server">
+        <!--Used as Title information for each page-->
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="SortingFiltering" runat="server">
+
+        <div>
+            <!-- Nav Bar Menu-->
+            <div class="header">
+                <h1>
+                    <a href="HomePage.aspx">
+                        <!--Company Logo -->
+                        <img src="/Assets/Images/Logo.jpg" alt="Logo" class="header_Logo" /></a>
+                    <!--Application Heading -->
+                    Table Sorting Application</h1>
+            </div>
+            <div>
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li class="active header_Nav_Menu"><a href="HomePage.aspx">Home</a></li>
+                            <li class="header_Nav_Menu"><a href="ServerSide.aspx">Server Side</a></li>
+                            <li class="header_Nav_Menu"><a href="ClientSide.aspx">Client Side</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!--End of Nav Bar Menu-->
+             <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True"></asp:ScriptManager>
+            <asp:ContentPlaceHolder ID="MasterPagePlaceHolderBody" runat="server">
+                <!--To be filled by content page[Home,ServerSide,CleintSide,Angular Js] -->
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     <!-- Angular JS -->
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-resource.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/carsController.js"></script>
+    <link href="Assets/Css/angular.css" rel="stylesheet" />
+    <!--End of Angular JS-->
+</body>
+</html>
+

@@ -1,0 +1,62 @@
+﻿.header {
+	margin-left: 20px;
+	height: 80px;
+}
+
+.fblogo{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header_Logo {
+	margin-right: 50px;
+	margin-bottom: 8px;
+	margin-right: 195px;
+}
+
+.header h1 {
+	color: red;
+}
+
+.header_Nav_Menu {
+	margin-left: 35px;
+}
+
+.body_ServerSide_Div {
+	margin-top: 35px;
+}
+
+.SS_FilterIconFont {
+	font-size: 33px;
+	margin-left: 12px;
+	margin-top: 5px;
+}
+
+.SS_Table_Header {
+	text-align: center;
+}
+
+.SS_Table_Reset {
+	margin-left: 85px;
+}
+
+#validation_Dropdown {
+	display: none;
+}
+
+#validation_Textbox {
+	display: none;
+}
+
+#MasterPagePlaceHolderBody_filter {
+	display: none;
+}
+
+.CS_Body_Div {
+	margin-top: 35px;
+}
+
+.CS_Table_Header {
+	text-align: center;
+}
